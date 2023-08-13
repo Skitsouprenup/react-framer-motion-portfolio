@@ -1,4 +1,4 @@
-# mycafestore-angular-springboot
+# react-framer-motion-portfolio
 A Simple and responsive portfolio website that I created. Spring animation
 is extensively used in this project.
 

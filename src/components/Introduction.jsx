@@ -14,6 +14,7 @@ import {
 } from "../styles/introduction.styles";
 
 import profilePicture from '../assets/images/pic1.png';
+import resume from '../assets/Kayle_Skitsouprenup_resume.pdf';
 
 import { motion } from 'framer-motion';
 import { fadeInLeftVariant, fadeInRightVariant } from "../utils/variants";
@@ -100,7 +101,10 @@ const Introduction = () => {
                 </IconContainer>
             </FlexContainer>
 
-            <DownloadCvButton><b>Download CV</b></DownloadCvButton>
+            <DownloadCvButton
+                onClick={() => window.open(resume)}>
+                <b>View Resume</b>
+            </DownloadCvButton>
         </PromotionIcons>
     </IntroductionSection>
   );
