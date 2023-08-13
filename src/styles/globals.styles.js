@@ -56,32 +56,32 @@ export const IconContainer = styled.div`
     }
 `;
 
+const selectHeaderSize = (type) => {
+    switch(type) {
+        case 'h1':
+            return '4rem';
+        case 'h2':
+            return '3.5rem';
+        case 'h3':
+            return '3.25rem';
+        case 'h4':
+            return '2rem';
+        case 'h5':
+            return '1.5rem';
+        case 'h6':
+            return '1.25rem';
+        default: return;
+    }
+};
+
 export const Heading = styled(PaddingContainer)`
     color: white;
-    text-align: ${($align) => $align};
-    font-size: ${({$type}) => {
-        switch($type) {
-            case 'h1':
-                return '4rem';
-            case 'h2':
-                return '3.5rem';
-            case 'h3':
-                return '3.25rem';
-            case 'h4':
-                return '2rem';
-            case 'h5':
-                return '1.5rem';
-            case 'h6':
-                    return '1.25rem';
-            default: return;
-        }
-    }};
-
+    font-size: ${({$type}) => selectHeaderSize($type)};
     text-align: ${({$alignText}) => $alignText};
 `;
 
 export const GreenishText = styled.span`
-    color: ${({theme}) => theme.colors.secondary};
+    color: ${({theme}) => theme.colors.secondary} !important;
 `;
 
 export const BlueLightVariant = styled.span`

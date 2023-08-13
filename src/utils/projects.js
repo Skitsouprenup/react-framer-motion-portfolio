@@ -42,7 +42,7 @@ export const projects = [
     },
     {
         id: 2,
-        title: 'Lets Chat',
+        title: 'Let\'s Chat!',
         description: 'A simple chat application created using MERN stack.',
         technologies: [
             'MongoDB',

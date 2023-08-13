@@ -35,11 +35,11 @@ const Introduction = () => {
                 whileInView="whileInView">
                 <Heading as="h4" $type="h4">Hello!</Heading>
                 <Heading as="h1" $type="h1" $top="5px"> 
-                I am <GreenishText>Kayle</GreenishText>
+                I &apos;m <GreenishText>Kayle</GreenishText>
                 </Heading>
 
                 <Heading as="h3" $type="h3" $top="5px"> 
-                I am a <GreenishText>Full Stack Developer</GreenishText>
+                I &apos;m a <GreenishText>Full Stack Developer</GreenishText>
                 </Heading>
 
                 <Paragraph $top="15px" $bottom="15px">
