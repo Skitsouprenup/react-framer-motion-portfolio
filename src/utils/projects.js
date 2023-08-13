@@ -4,6 +4,7 @@ import LetsChatProject from '../assets/images/projects/letschat_project.png';
 import MyCrmProject from '../assets/images/projects/mycrm_project.png';
 import MyCafeStoreProject from '../assets/images/projects/mycafestore_project.png';
 import FilesLinksManagerProject from '../assets/images/projects/fileslinksmanager_project.png';
+import PortfolioWebsiteProject from '../assets/images/projects/portfolio_website_project.jpg';
 
 export const projects = [
     {
@@ -101,5 +102,18 @@ export const projects = [
         thumbnail: FilesLinksManagerProject,
         video_url: 'https://youtu.be/SvH74gjn25g',
         github_url: 'https://github.com/Skitsouprenup/java-files-and-links-manager'
+    },
+    {
+        id: 6,
+        title: 'My Porfolio Website',
+        description: 'Portfolio created by me using react, styled-components and framer-motion.',
+        technologies: [
+            'Javascript',
+            'React',
+            'Styled-components',
+            'Framer-motion'
+        ],
+        thumbnail: PortfolioWebsiteProject,
+        github_url: 'https://github.com/Skitsouprenup/react-framer-motion-portfolio'
     }
 ];

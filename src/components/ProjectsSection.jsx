@@ -147,14 +147,17 @@ const ProjectsSection = () => {
                                     onClick={() => window.open(item.github_url)}>
                                     <BsGithub />
                                 </IconContainer>
-                                <IconContainer
-                                    $size="25px"
-                                    $color="gray"
-                                    $cursor="pointer"
-                                    className="icon"
-                                    onClick={() => window.open(item.video_url)}>
-                                    <BsYoutube />
-                                </IconContainer>
+                                {
+                                    item?.video_url ? 
+                                    <IconContainer
+                                        $size="25px"
+                                        $color="gray"
+                                        $cursor="pointer"
+                                        className="icon"
+                                        onClick={() => window.open(item.video_url)}>
+                                        <BsYoutube />
+                                    </IconContainer> : null
+                                }
                             </ProjectLinks>
                             <Paragraph>{item.description}</Paragraph>
                             <FlexContainer $gapx="10px" $gapy="10px" $wrap="wrap">
