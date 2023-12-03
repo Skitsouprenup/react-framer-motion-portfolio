@@ -5,6 +5,7 @@ import MyCrmProject from '../assets/images/projects/mycrm_project.png';
 import MyCafeStoreProject from '../assets/images/projects/mycafestore_project.png';
 import FilesLinksManagerProject from '../assets/images/projects/fileslinksmanager_project.png';
 import PortfolioWebsiteProject from '../assets/images/projects/portfolio_website_project.jpg';
+import BuyDigitalProject from '../assets/images/projects/buy_digital_project.png';
 
 export const projects = [
     {
@@ -39,6 +40,20 @@ export const projects = [
         thumbnail: ShopperProject,
         video_url: 'https://youtu.be/OG5xESMMZyU',
         github_url: 'https://github.com/Skitsouprenup/shopper-app-mern-stack'
+    },
+    {
+        id: 2,
+        title: 'Buy Digital',
+        description: 'A simple chat e-commerce website developed using NextJS and NestJS.',
+        technologies: [
+            'NextJS 13',
+            'NestJS',
+            'React-bootstrap',
+            'MongoDB',
+        ],
+        thumbnail: BuyDigitalProject,
+        video_url: 'https://www.youtube.com/watch?v=uPy_wX6NcwY',
+        github_url: 'https://github.com/Skitsouprenup/nextjs-nestjs-buy-digital-ecommerce'
     },
     {
         id: 2,
