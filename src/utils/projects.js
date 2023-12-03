@@ -44,7 +44,7 @@ export const projects = [
     {
         id: 2,
         title: 'Buy Digital',
-        description: 'A simple chat e-commerce website developed using NextJS and NestJS.',
+        description: 'A simple e-commerce website developed using NextJS and NestJS.',
         technologies: [
             'NextJS 13',
             'NestJS',
