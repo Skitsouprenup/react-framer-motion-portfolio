@@ -56,7 +56,7 @@ export const projects = [
         github_url: 'https://github.com/Skitsouprenup/nextjs-nestjs-buy-digital-ecommerce'
     },
     {
-        id: 2,
+        id: 3,
         title: 'Let\'s Chat!',
         description: 'A simple chat application created using MERN stack.',
         technologies: [
@@ -74,7 +74,7 @@ export const projects = [
         github_url: 'https://github.com/Skitsouprenup/lets-chat-app-mern'
     },
     {
-        id: 3,
+        id: 4,
         title: 'MyCRM',
         description: 'Simple CRM app created using Vue3 and Django.',
         technologies: [
@@ -91,7 +91,7 @@ export const projects = [
         github_url: 'https://github.com/Skitsouprenup/mycrm-vue3-django-bootstrap5'
     },
     {
-        id: 4,
+        id: 5,
         title: 'MyCafeStore',
         description: 'Simple Cafe Management System created using Angular and Spring Boot.',
         technologies: [
@@ -107,7 +107,7 @@ export const projects = [
         github_url: 'https://github.com/Skitsouprenup/mycafestore-angular-springboot'
     },
     {
-        id: 5,
+        id: 6,
         title: 'Files and Links Manager',
         description: 'Multipurpose files and links manager that is created by me using java swing package.',
         technologies: [
@@ -119,7 +119,7 @@ export const projects = [
         github_url: 'https://github.com/Skitsouprenup/java-files-and-links-manager'
     },
     {
-        id: 6,
+        id: 7,
         title: 'My Porfolio Website',
         description: 'Portfolio created by me using react, styled-components and framer-motion.',
         technologies: [
