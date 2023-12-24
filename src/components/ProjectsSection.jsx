@@ -90,9 +90,9 @@ const ProjectsSection = () => {
 
     useEffect(() => {
         setPages(projects.
-            filter((item) => {
-                return item.id >= minPageIndex &&
-                item.id <= (maxPageIndex - 1);
+            filter((_, index) => {
+                return index >= minPageIndex &&
+                index <= (maxPageIndex - 1);
             }));
     },[minPageIndex, maxPageIndex]);
 
