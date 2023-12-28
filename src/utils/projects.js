@@ -6,7 +6,8 @@ import MyCafeStoreProject from '../assets/images/projects/mycafestore_project.pn
 import FilesLinksManagerProject from '../assets/images/projects/fileslinksmanager_project.png';
 import PortfolioWebsiteProject from '../assets/images/projects/portfolio_website_project.jpg';
 import BuyDigitalProject from '../assets/images/projects/buy_digital_project-min.png';
-import SurveyAppVue3Laravel from '../assets/images/projects/survey-app-vue3-laravel.png'
+import SurveyAppVue3Laravel from '../assets/images/projects/survey-app-vue3-laravel.png';
+import Java2DPhysicsEngineForCircles from '../assets/images/projects/java_2d_physics_engine_for_circles.png';
 
 export const projects = [
     {
@@ -38,6 +39,22 @@ export const projects = [
       thumbnail: SurveyAppVue3Laravel,
       video_url: 'https://youtu.be/xajAjuhhN4I',
       github_url: 'https://github.com/Skitsouprenup/vue3-laravel10-survey-app'
+    },
+    {
+      id: 'b4124a1d-42c4-4527-8820-e258b4442059',
+      title: '2D Physics Engine for Circles',
+      description: 
+        'A simple 2D physics engine for circle objects.'+
+        ' This is my attempt to write a physics engine in java in 2020.'+
+        ' This physics engine is not fully polished. I created this project'+
+        ' for fun and experimentation only.',
+      technologies: [
+          'Java',
+          'Java Swing UI',
+      ],
+      thumbnail: Java2DPhysicsEngineForCircles,
+      video_url: 'https://youtu.be/92ttC2Bv0sg',
+      github_url: 'https://github.com/Skitsouprenup/java-2d-circle-physics-engine'
     },
     {
         id: 'ea0b3b4f-115f-4059-90f8-303bab513c35',
