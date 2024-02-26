@@ -8,6 +8,7 @@ import PortfolioWebsiteProject from '../assets/images/projects/portfolio_website
 import BuyDigitalProject from '../assets/images/projects/buy_digital_project-min.png';
 import SurveyAppVue3Laravel from '../assets/images/projects/survey-app-vue3-laravel.png';
 import Java2DPhysicsEngineForCircles from '../assets/images/projects/java_2d_physics_engine_for_circles.png';
+import NeuralNetworkInC from '../assets/images/projects/neural-network-for-logic-gates-and-adder.png';
 
 export const projects = [
     {
@@ -41,20 +42,19 @@ export const projects = [
       github_url: 'https://github.com/Skitsouprenup/vue3-laravel10-survey-app'
     },
     {
-      id: 'b4124a1d-42c4-4527-8820-e258b4442059',
-      title: '2D Physics Engine for Circles',
+      id: '8de47c54-fb63-4b6c-a15f-06b98de90d16',
+      title: 'Neural Network for Logic Gates and Adder',
       description: 
-        'A simple 2D physics engine for circle objects.'+
-        ' This is my attempt to write a physics engine in java in 2020.'+
-        ' This physics engine is not fully polished. I created this project'+
-        ' for fun and experimentation only.',
+        'A simple neural network model for logic gates'+
+        ' and adder in C programming language.',
       technologies: [
-          'Java',
-          'Java Swing UI',
+          'C',
+          'AI',
+          'Machine Learning'
       ],
-      thumbnail: Java2DPhysicsEngineForCircles,
-      video_url: 'https://youtu.be/92ttC2Bv0sg',
-      github_url: 'https://github.com/Skitsouprenup/java-2d-circle-physics-engine'
+      thumbnail: NeuralNetworkInC,
+      video_url: 'https://youtu.be/71N2ihtNK80',
+      github_url: 'https://github.com/Skitsouprenup/logic-gates-and-adder-neural-network-in-c'
     },
     {
         id: 'ea0b3b4f-115f-4059-90f8-303bab513c35',
@@ -74,6 +74,22 @@ export const projects = [
         thumbnail: ShopperProject,
         video_url: 'https://youtu.be/OG5xESMMZyU',
         github_url: 'https://github.com/Skitsouprenup/shopper-app-mern-stack'
+    },
+    {
+      id: 'b4124a1d-42c4-4527-8820-e258b4442059',
+      title: '2D Physics Engine for Circles',
+      description: 
+        'A simple 2D physics engine for circle objects.'+
+        ' This is my attempt to write a physics engine in java in 2020.'+
+        ' This physics engine is not fully polished. I created this project'+
+        ' for fun and experimentation only.',
+      technologies: [
+          'Java',
+          'Java Swing UI',
+      ],
+      thumbnail: Java2DPhysicsEngineForCircles,
+      video_url: 'https://youtu.be/92ttC2Bv0sg',
+      github_url: 'https://github.com/Skitsouprenup/java-2d-circle-physics-engine'
     },
     {
         id: '3bb483d8-d488-4dc0-a44e-19cfcb37349c',
