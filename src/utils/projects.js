@@ -9,6 +9,8 @@ import BuyDigitalProject from '../assets/images/projects/buy_digital_project-min
 import SurveyAppVue3Laravel from '../assets/images/projects/survey-app-vue3-laravel.png';
 import Java2DPhysicsEngineForCircles from '../assets/images/projects/java_2d_physics_engine_for_circles.png';
 import NeuralNetworkInC from '../assets/images/projects/neural-network-for-logic-gates-and-adder.png';
+import FoodRecipeAngular17SpringBoot from '../assets/images/projects/food-recipe-angular17-spring-boot.png';
+
 
 export const projects = [
     {
@@ -49,7 +51,7 @@ export const projects = [
         ' and adder in C programming language.',
       technologies: [
           'C',
-          'AI',
+          'Artificial Intelligence',
           'Machine Learning'
       ],
       thumbnail: NeuralNetworkInC,
@@ -74,6 +76,24 @@ export const projects = [
         thumbnail: ShopperProject,
         video_url: 'https://youtu.be/OG5xESMMZyU',
         github_url: 'https://github.com/Skitsouprenup/shopper-app-mern-stack'
+    },
+    {
+      id: '55feccf8-491f-42b5-a031-522f6a57c2d8',
+      title: 'Food Recipe Share',
+      description: 'A simple food recipe sharing app.',
+      technologies: [
+        'Typescript',
+        'Angular17',
+        'Angular Material',
+        'SCSS',
+        'TailwindCSS',
+        'Java',
+        'Spring Boot',
+        'MySQL'
+      ],
+      thumbnail: FoodRecipeAngular17SpringBoot,
+      video_url: 'https://youtu.be/4Xwj0do-E3s',
+      github_url: 'https://github.com/Skitsouprenup/food-recipe-angular17-spring-boot'
     },
     {
       id: 'b4124a1d-42c4-4527-8820-e258b4442059',
