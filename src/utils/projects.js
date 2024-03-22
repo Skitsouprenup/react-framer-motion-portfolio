@@ -10,22 +10,24 @@ import SurveyAppVue3Laravel from '../assets/images/projects/survey-app-vue3-lara
 import Java2DPhysicsEngineForCircles from '../assets/images/projects/java_2d_physics_engine_for_circles.png';
 import NeuralNetworkInC from '../assets/images/projects/neural-network-for-logic-gates-and-adder.png';
 import FoodRecipeAngular17SpringBoot from '../assets/images/projects/food-recipe-angular17-spring-boot.png';
-
+import ReactAdminApp1 from '../assets/images/projects/react-admin-app-1.png';
 
 export const projects = [
     {
-        id: '09823a1b-f175-452b-a170-c559900cf03d',
-        title: 'MyShare',
-        description: 'My simple social media app created using React.',
+        id: '302cb7ff-7fde-4a7b-a028-c51a943616cc',
+        title: 'MyAdminApp',
+        description: 'A Simple and responsive Admin Dashboard app created using react.',
         technologies: [
-            'React', 
-            'TailwindCSS', 
-            'sanity.io', 
-            'OAuth2(Google)'
+          'React',
+          'Typescript',
+          'recharts',
+          'MUI Data Grid',
+          'HTML',
+          'CSS'
         ],
-        thumbnail: MyShareProject,
-        video_url: 'https://youtu.be/NI8sUjzLVhE',
-        github_url: 'https://github.com/Skitsouprenup/myshare-social-react-app'
+        thumbnail: ReactAdminApp1,
+        video_url: 'https://youtu.be/5CCogRUEbNI',
+        github_url: 'https://github.com/Skitsouprenup/react-admin-app1'
     },
     {
       id: 'ab267dba-5c03-4010-bda9-fb586aacb0ee',
@@ -94,6 +96,20 @@ export const projects = [
       thumbnail: FoodRecipeAngular17SpringBoot,
       video_url: 'https://youtu.be/4Xwj0do-E3s',
       github_url: 'https://github.com/Skitsouprenup/food-recipe-angular17-spring-boot'
+    },
+    {
+      id: '09823a1b-f175-452b-a170-c559900cf03d',
+      title: 'MyShare',
+      description: 'My simple social media app created using React.',
+      technologies: [
+          'React', 
+          'TailwindCSS', 
+          'sanity.io', 
+          'OAuth2(Google)'
+      ],
+      thumbnail: MyShareProject,
+      video_url: 'https://youtu.be/NI8sUjzLVhE',
+      github_url: 'https://github.com/Skitsouprenup/myshare-social-react-app'
     },
     {
       id: 'b4124a1d-42c4-4527-8820-e258b4442059',

@@ -141,7 +141,7 @@ const ProjectsSection = () => {
                                 <Heading as="h5" $type="h5">{item.title}</Heading>
                                 <IconContainer
                                     $size="25px"
-                                    $color="gray"
+                                    $color="gold"
                                     $cursor="pointer"
                                     className="icon"
                                     onClick={() => window.open(item.github_url)}>
@@ -151,7 +151,7 @@ const ProjectsSection = () => {
                                     item?.video_url ? 
                                     <IconContainer
                                         $size="25px"
-                                        $color="gray"
+                                        $color="gold"
                                         $cursor="pointer"
                                         className="icon"
                                         onClick={() => window.open(item.video_url)}>
