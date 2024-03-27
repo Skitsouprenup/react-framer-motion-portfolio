@@ -1,5 +1,5 @@
 import MyShareProject from '../assets/images/projects/myshare_project.webp';
-import ShopperProject from '../assets/images/projects/shopper_project.png';
+import ShopperProject from '../assets/images/projects/shopper_project.jpg';
 import LetsChatProject from '../assets/images/projects/letschat_project.png';
 import MyCrmProject from '../assets/images/projects/mycrm_project.png';
 import MyCafeStoreProject from '../assets/images/projects/mycafestore_project.png';
@@ -11,6 +11,7 @@ import Java2DPhysicsEngineForCircles from '../assets/images/projects/java_2d_phy
 import NeuralNetworkInC from '../assets/images/projects/neural-network-for-logic-gates-and-adder.png';
 import FoodRecipeAngular17SpringBoot from '../assets/images/projects/food-recipe-angular17-spring-boot.png';
 import ReactAdminApp1 from '../assets/images/projects/react-admin-app-1.png';
+import Web3AppReactSolidty1 from '../assets/images/projects/web3-app-react-solidity.jpg';
 
 export const projects = [
     {
@@ -28,6 +29,21 @@ export const projects = [
         thumbnail: ReactAdminApp1,
         video_url: 'https://youtu.be/5CCogRUEbNI',
         github_url: 'https://github.com/Skitsouprenup/react-admin-app1'
+    },
+    {
+      id: 'd28a8dc3-3f26-49fe-9e17-3bbc74c50f74',
+      title: 'Web3App',
+      description: 'A Simple and responsive blockchain app using react as frontend, solidity for interaction with the blockchain and hardhat for deploying and testing solidity contracts.',
+      technologies: [
+        'Typescript',
+        'React',
+        'SCSS',
+        'Solidity',
+        'Hardhat'
+      ],
+      thumbnail: Web3AppReactSolidty1,
+      video_url: 'https://youtu.be/K3apk2Yfw7Y',
+      github_url: 'https://github.com/Skitsouprenup/web3-app-react-solidity'
     },
     {
       id: 'ab267dba-5c03-4010-bda9-fb586aacb0ee',
