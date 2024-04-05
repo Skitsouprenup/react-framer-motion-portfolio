@@ -26,6 +26,8 @@ export const projects = [
          'Shadcn',
          'Stripe',
          'Clerk',
+         'MongoDB',
+         'Mongoose',
          'Tailwind',
          'Zod'
       ],
