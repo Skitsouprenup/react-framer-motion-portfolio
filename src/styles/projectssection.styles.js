@@ -56,7 +56,7 @@ export const ProjectLinks = styled(FlexContainer)`
 
 export const TechCard = styled.div`
     background-color: ${({theme}) => theme.colors.secondary};
-    color: ${({theme}) => theme.colors.primary};
+    color: ${({$color}) => $color};
     padding: 5px;
     border-radius: 5px;
 `;

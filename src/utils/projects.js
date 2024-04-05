@@ -12,8 +12,27 @@ import NeuralNetworkInC from '../assets/images/projects/neural-network-for-logic
 import FoodRecipeAngular17SpringBoot from '../assets/images/projects/food-recipe-angular17-spring-boot.png';
 import ReactAdminApp1 from '../assets/images/projects/react-admin-app-1.png';
 import Web3AppReactSolidty1 from '../assets/images/projects/web3-app-react-solidity.jpg';
+import Nextjs14ShadcnEventManagement from '../assets/images/projects/nextjs14-shadcn-event-management-app.jpg';
 
 export const projects = [
+    {
+      id: '83472f6f-5e0a-41f0-8879-810c2dd197ef',
+      title: 'Get Event',
+      description: 'A Simple and responsive event manager app using nextjs14 with shadcn and tailwind for styling, '+
+      'stripe for payment, clerk for authentication and zod for form validation.',
+      technologies: [
+        'Typescript',
+         'NextJS 14',
+         'Shadcn',
+         'Stripe',
+         'Clerk',
+         'Tailwind',
+         'Zod'
+      ],
+      thumbnail: Nextjs14ShadcnEventManagement,
+      video_url: 'https://youtu.be/pMVWLpk30h8',
+      github_url: 'https://github.com/Skitsouprenup/nextjs14-shadcn-event-management-app'
+    },
     {
         id: '302cb7ff-7fde-4a7b-a028-c51a943616cc',
         title: 'MyAdminApp',

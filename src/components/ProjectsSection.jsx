@@ -163,7 +163,7 @@ const ProjectsSection = () => {
                             <FlexContainer $gapx="10px" $gapy="10px" $wrap="wrap">
                                 {
                                     item.technologies.map((name) => {
-                                        return <TechCard key={name}>{name}</TechCard>
+                                        return <TechCard key={name} $color="black">{name}</TechCard>
                                     })
                                 }
                             </FlexContainer>
