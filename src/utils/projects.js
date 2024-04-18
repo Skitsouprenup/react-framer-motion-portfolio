@@ -13,8 +13,24 @@ import FoodRecipeAngular17SpringBoot from '../assets/images/projects/food-recipe
 import ReactAdminApp1 from '../assets/images/projects/react-admin-app-1.png';
 import Web3AppReactSolidty1 from '../assets/images/projects/web3-app-react-solidity.jpg';
 import Nextjs14ShadcnEventManagement from '../assets/images/projects/nextjs14-shadcn-event-management-app.jpg';
+import NinjaGamePygameCe from '../assets/images/projects/ninja-game-pygame-ce.png';
 
 export const projects = [
+    {
+      id: '6425b67a-c832-4ee8-8d3f-c41ebd390eb6',
+      title: 'Ninja Game',
+      description: 'A simple 2D platformer game created using pygame-ce(Community Edition).'+
+      ' This game is not fully polished and only created for experimentation and learning purposes.',
+      technologies: [
+        'Python',
+        'pygame-ce',
+        '2D Platformer',
+        'Game Development'
+      ],
+      thumbnail: NinjaGamePygameCe,
+      video_url: 'https://youtu.be/1-AQYvMeY20',
+      github_url: 'https://github.com/Skitsouprenup/ninja_game_pygame-ce'
+    },
     {
       id: '83472f6f-5e0a-41f0-8879-810c2dd197ef',
       title: 'Get Event',
