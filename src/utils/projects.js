@@ -14,8 +14,24 @@ import ReactAdminApp1 from '../assets/images/projects/react-admin-app-1.png';
 import Web3AppReactSolidty1 from '../assets/images/projects/web3-app-react-solidity.jpg';
 import Nextjs14ShadcnEventManagement from '../assets/images/projects/nextjs14-shadcn-event-management-app.jpg';
 import NinjaGamePygameCe from '../assets/images/projects/ninja-game-pygame-ce.png';
+import TwitterCloneSvelteKitFirebase from '../assets/images/projects/twitter-clone-sveltekit-firebase.png';
 
 export const projects = [
+    {
+      id: '300bb349-45eb-41f0-8560-926abb98a8bc',
+      title: 'twitter-clone-sveltekit-firebase',
+      description: 'Simple twitter clone with limited pages and functionalities.',
+      technologies: [
+        'Sveltekit',
+        'TailwindCSS',
+        'Firebase',
+        'Shadcn-svelte',
+        'Typescript'
+      ],
+      thumbnail: TwitterCloneSvelteKitFirebase,
+      video_url: 'https://youtu.be/XyAFo38ckJ8',
+      github_url: 'https://github.com/Skitsouprenup/twitter-clone-sveltekit-firebase'
+    },
     {
       id: '6425b67a-c832-4ee8-8d3f-c41ebd390eb6',
       title: 'Ninja Game',
