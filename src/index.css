@@ -17,6 +17,16 @@ body {
   background-color: lightgray;
 }
 
+select::-webkit-scrollbar-thumb {
+  background-color: rgb(128, 128, 128);
+}
+
 ::-webkit-scrollbar-thumb {
   background-image: linear-gradient(#1995ad, #6990c0);
+}
+
+.select {
+  font-size: 1.5rem;
+  border-radius: 0.25rem;
+  padding: 0.15rem;
 }

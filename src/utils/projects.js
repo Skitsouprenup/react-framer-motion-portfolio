@@ -15,8 +15,23 @@ import Web3AppReactSolidty1 from '../assets/images/projects/web3-app-react-solid
 import Nextjs14ShadcnEventManagement from '../assets/images/projects/nextjs14-shadcn-event-management-app.jpg';
 import NinjaGamePygameCe from '../assets/images/projects/ninja-game-pygame-ce.png';
 import TwitterCloneSvelteKitFirebase from '../assets/images/projects/twitter-clone-sveltekit-firebase.png';
+import ShurlNuxt3Supabase from '../assets/images/projects/shurl-nuxt3-supabase.png';
 
 export const projects = [
+    {
+      id: '4addded8-2045-49c2-b398-9e5945a31b70',
+      title: 'shURL',
+      description: 'URL shortener created using Nuxt3, Supabase and TailwindCSS.',
+      technologies: [
+        'Typescript',
+        'Nuxt3',
+        'Supabase',
+        'TailwindCSS'
+      ],
+      thumbnail: ShurlNuxt3Supabase,
+      video_url: 'https://youtu.be/J1OWqJ_fdfU',
+      github_url: 'https://github.com/Skitsouprenup/shurl-nuxt3-supabase'
+    },
     {
       id: '300bb349-45eb-41f0-8560-926abb98a8bc',
       title: 'twitter-clone-sveltekit-firebase',
@@ -216,6 +231,7 @@ export const projects = [
         description: 'A simple chat application created using MERN stack.',
         technologies: [
             'MongoDB',
+            'Javascript',
             'Express',
             'React',
             'Nodejs',
