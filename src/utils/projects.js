@@ -16,8 +16,24 @@ import Nextjs14ShadcnEventManagement from '../assets/images/projects/nextjs14-sh
 import NinjaGamePygameCe from '../assets/images/projects/ninja-game-pygame-ce.png';
 import TwitterCloneSvelteKitFirebase from '../assets/images/projects/twitter-clone-sveltekit-firebase.png';
 import ShurlNuxt3Supabase from '../assets/images/projects/shurl-nuxt3-supabase.png';
+import ReactNativeVidSharing from '../assets/images/projects/react-navite-vidsharing-compressed.png';
 
 export const projects = [
+    {
+      id: '54f86687-e952-4cb7-81c8-02a3cd159b08',
+      title: 'VidSharing',
+      description: 'A Simple and responsive video sharing app created using react native for mobile.',
+      technologies: [
+        'Appwrite',
+        'React Native',
+        'NativeWind',
+        'Expo',
+        'javascript'
+      ],
+      thumbCoverPos: 'left top',
+      thumbnail: ReactNativeVidSharing,
+      github_url: 'https://github.com/Skitsouprenup/react-native-video-sharing-app'
+    },
     {
       id: '4addded8-2045-49c2-b398-9e5945a31b70',
       title: 'shURL',
@@ -221,6 +237,7 @@ export const projects = [
             'React-bootstrap',
             'MongoDB',
         ],
+        thumbCoverPos: 'left top',
         thumbnail: BuyDigitalProject,
         video_url: 'https://www.youtube.com/watch?v=uPy_wX6NcwY',
         github_url: 'https://github.com/Skitsouprenup/nextjs-nestjs-buy-digital-ecommerce'

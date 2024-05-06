@@ -243,6 +243,7 @@ const ProjectsSection = () => {
                                 {
                                     position: 'absolute',
                                     objectFit: 'cover',
+                                    objectPosition: item?.thumbCoverPos ?? `${item.thumbCoverPos}`,
                                     width: '100%',
                                     height: '100%',
                                     zIndex: '10'

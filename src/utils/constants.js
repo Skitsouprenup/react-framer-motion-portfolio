@@ -10,6 +10,7 @@ export const tagCategories = [
   'Angular',
   'Nuxt',
   'React',
+  'React Native',
   'Svelte',
   'NextJS',
   'Vue',
