@@ -109,6 +109,9 @@ const ProjectsSection = () => {
       if(category.toLowerCase() === 'C'.toLowerCase()) {
         regex = new RegExp(`^${category}$`, 'i');
       } 
+      else if(category.toLowerCase() === 'C++'.toLowerCase()) {
+        regex = new RegExp(`^C\\+\\+$`, 'i');
+      } 
       else if(category.toLowerCase() === 'Java'.toLowerCase()) {
         regex = new RegExp(`^${category}(?!script)`, 'i');
       }

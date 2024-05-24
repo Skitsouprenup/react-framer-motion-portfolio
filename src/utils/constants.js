@@ -7,6 +7,7 @@ export const tagCategories = [
   'Java',
   'PHP',
   'C',
+  'C++',
   'Angular',
   'Nuxt',
   'React',

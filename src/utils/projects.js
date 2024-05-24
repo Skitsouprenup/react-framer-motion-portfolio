@@ -17,8 +17,22 @@ import NinjaGamePygameCe from '../assets/images/projects/ninja-game-pygame-ce.pn
 import TwitterCloneSvelteKitFirebase from '../assets/images/projects/twitter-clone-sveltekit-firebase.png';
 import ShurlNuxt3Supabase from '../assets/images/projects/shurl-nuxt3-supabase.png';
 import ReactNativeVidSharing from '../assets/images/projects/react-navite-vidsharing-compressed.png';
+import TetrisCppRaylib from '../assets/images/projects/tetris-cpp-raylib.png'
 
 export const projects = [
+    {
+      id: 'a32a23da-f78f-4c15-a124-4e6cfaa767fc',
+      title: 'Tetris',
+      description: 'A simple clone of tetris in raylib.',
+      technologies: [
+        'C++',
+        'Raylib',
+      ],
+      thumbCoverPos: 'left top',
+      thumbnail: TetrisCppRaylib,
+      video_url: 'https://www.youtube.com/watch?v=rUZsRHXKIKc',
+      github_url: 'https://github.com/Skitsouprenup/tetris-cpp-raylib'
+    },
     {
       id: '54f86687-e952-4cb7-81c8-02a3cd159b08',
       title: 'VidSharing',
@@ -75,7 +89,7 @@ export const projects = [
         'Game Development'
       ],
       thumbnail: NinjaGamePygameCe,
-      video_url: 'https://youtu.be/1-AQYvMeY20',
+      video_url: 'https://youtu.be/y667jYQZ7yo',
       github_url: 'https://github.com/Skitsouprenup/ninja_game_pygame-ce'
     },
     {
