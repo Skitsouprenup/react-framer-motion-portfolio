@@ -39,12 +39,12 @@ const Introduction = () => {
                 </Heading>
 
                 <Heading as="h3" $type="h3" $top="5px"> 
-                I &apos;m a <GreenishText>Full Stack Developer</GreenishText>
+                I &apos;m a <GreenishText>Software Engineer</GreenishText>
                 </Heading>
 
                 <Paragraph $top="15px" $bottom="15px">
-                    I am a full stack developer and have done multiple 
-                    full stack projects.
+                    Software engineer that has done multiple
+                    software projects.
                 </Paragraph>
             </motion.div>
 

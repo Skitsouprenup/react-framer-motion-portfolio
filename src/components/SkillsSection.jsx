@@ -56,8 +56,11 @@ const SkillsSection = () => {
                 about different types of front-end and back-end frameworks.
                 My main tech stack is MERN stack.
                 <br /><br />
-                I also have experience with other tech stacks aside from my
+                Although, I have experience with other tech stacks aside from my
                 main stack like Angular, Spring Boot, Vue3, Django, etc.
+                <br /><br />
+                I'm also a 2D game developer hobbyist. My preferred game
+                genres to work on are rpg, arcade and puzzles. 
             </Paragraph>
         </FlexContainer>
 
