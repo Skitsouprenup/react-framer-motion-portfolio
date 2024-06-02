@@ -27,6 +27,7 @@ export const projects = [
       technologies: [
         'C++',
         'Raylib',
+        'Game Development'
       ],
       thumbCoverPos: 'left top',
       thumbnail: TetrisCppRaylib,
