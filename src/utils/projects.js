@@ -20,19 +20,19 @@ import ReactNativeVidSharing from '../assets/images/projects/react-navite-vidsha
 import TetrisCppRaylib from '../assets/images/projects/tetris-cpp-raylib.png'
 
 export const projects = [
-    {
-      id: 'a32a23da-f78f-4c15-a124-4e6cfaa767fc',
-      title: 'Tetris',
-      description: 'A simple clone of tetris in raylib.',
+	{
+      id: '4addded8-2045-49c2-b398-9e5945a31b70',
+      title: 'shURL',
+      description: 'URL shortener created using Nuxt3, Supabase and TailwindCSS.',
       technologies: [
-        'C++',
-        'Raylib',
-        'Game Development'
+        'Typescript',
+        'Nuxt3',
+        'Supabase',
+        'TailwindCSS'
       ],
-      thumbCoverPos: 'left top',
-      thumbnail: TetrisCppRaylib,
-      video_url: 'https://www.youtube.com/watch?v=rUZsRHXKIKc',
-      github_url: 'https://github.com/Skitsouprenup/tetris-cpp-raylib'
+      thumbnail: ShurlNuxt3Supabase,
+      video_url: 'https://youtu.be/J1OWqJ_fdfU',
+      github_url: 'https://github.com/Skitsouprenup/shurl-nuxt3-supabase'
     },
     {
       id: '54f86687-e952-4cb7-81c8-02a3cd159b08',
@@ -50,18 +50,35 @@ export const projects = [
       github_url: 'https://github.com/Skitsouprenup/react-native-video-sharing-app'
     },
     {
-      id: '4addded8-2045-49c2-b398-9e5945a31b70',
-      title: 'shURL',
-      description: 'URL shortener created using Nuxt3, Supabase and TailwindCSS.',
+        id: '302cb7ff-7fde-4a7b-a028-c51a943616cc',
+        title: 'MyAdminApp',
+        description: 'A Simple and responsive Admin Dashboard app created using react.',
+        technologies: [
+          'React',
+          'Typescript',
+          'recharts',
+          'MUI Data Grid',
+          'HTML',
+          'CSS'
+        ],
+        thumbnail: ReactAdminApp1,
+        video_url: 'https://youtu.be/5CCogRUEbNI',
+        github_url: 'https://github.com/Skitsouprenup/react-admin-app1'
+    },
+	{
+      id: 'd28a8dc3-3f26-49fe-9e17-3bbc74c50f74',
+      title: 'Web3App',
+      description: 'A Simple and responsive blockchain app using react as frontend, solidity for interaction with the blockchain and hardhat for deploying and testing solidity contracts.',
       technologies: [
         'Typescript',
-        'Nuxt3',
-        'Supabase',
-        'TailwindCSS'
+        'React',
+        'SCSS',
+        'Solidity',
+        'Hardhat'
       ],
-      thumbnail: ShurlNuxt3Supabase,
-      video_url: 'https://youtu.be/J1OWqJ_fdfU',
-      github_url: 'https://github.com/Skitsouprenup/shurl-nuxt3-supabase'
+      thumbnail: Web3AppReactSolidty1,
+      video_url: 'https://youtu.be/K3apk2Yfw7Y',
+      github_url: 'https://github.com/Skitsouprenup/web3-app-react-solidity'
     },
     {
       id: '300bb349-45eb-41f0-8560-926abb98a8bc',
@@ -113,36 +130,19 @@ export const projects = [
       video_url: 'https://youtu.be/pMVWLpk30h8',
       github_url: 'https://github.com/Skitsouprenup/nextjs14-shadcn-event-management-app'
     },
-    {
-        id: '302cb7ff-7fde-4a7b-a028-c51a943616cc',
-        title: 'MyAdminApp',
-        description: 'A Simple and responsive Admin Dashboard app created using react.',
-        technologies: [
-          'React',
-          'Typescript',
-          'recharts',
-          'MUI Data Grid',
-          'HTML',
-          'CSS'
-        ],
-        thumbnail: ReactAdminApp1,
-        video_url: 'https://youtu.be/5CCogRUEbNI',
-        github_url: 'https://github.com/Skitsouprenup/react-admin-app1'
-    },
-    {
-      id: 'd28a8dc3-3f26-49fe-9e17-3bbc74c50f74',
-      title: 'Web3App',
-      description: 'A Simple and responsive blockchain app using react as frontend, solidity for interaction with the blockchain and hardhat for deploying and testing solidity contracts.',
+	{
+      id: 'a32a23da-f78f-4c15-a124-4e6cfaa767fc',
+      title: 'Tetris',
+      description: 'A simple clone of tetris in raylib.',
       technologies: [
-        'Typescript',
-        'React',
-        'SCSS',
-        'Solidity',
-        'Hardhat'
+        'C++',
+        'Raylib',
+        'Game Development'
       ],
-      thumbnail: Web3AppReactSolidty1,
-      video_url: 'https://youtu.be/K3apk2Yfw7Y',
-      github_url: 'https://github.com/Skitsouprenup/web3-app-react-solidity'
+      thumbCoverPos: 'left top',
+      thumbnail: TetrisCppRaylib,
+      video_url: 'https://www.youtube.com/watch?v=rUZsRHXKIKc',
+      github_url: 'https://github.com/Skitsouprenup/tetris-cpp-raylib'
     },
     {
       id: 'ab267dba-5c03-4010-bda9-fb586aacb0ee',
@@ -157,7 +157,7 @@ export const projects = [
           'TailwindCSS' 
       ],
       thumbnail: SurveyAppVue3Laravel,
-      video_url: 'https://youtu.be/xajAjuhhN4I',
+      video_url: 'https://youtu.be/xwvHfVxd1zY',
       github_url: 'https://github.com/Skitsouprenup/vue3-laravel10-survey-app'
     },
     {
@@ -191,7 +191,7 @@ export const projects = [
             'MongoDB',
         ],
         thumbnail: ShopperProject,
-        video_url: 'https://youtu.be/OG5xESMMZyU',
+        video_url: 'https://youtu.be/myvfDn7ka-A',
         github_url: 'https://github.com/Skitsouprenup/shopper-app-mern-stack'
     },
     {
@@ -223,7 +223,7 @@ export const projects = [
           'OAuth2(Google)'
       ],
       thumbnail: MyShareProject,
-      video_url: 'https://youtu.be/NI8sUjzLVhE',
+      video_url: 'https://youtu.be/ZIWRJ3JwSvE',
       github_url: 'https://github.com/Skitsouprenup/myshare-social-react-app'
     },
     {
@@ -239,7 +239,7 @@ export const projects = [
           'Java Swing UI',
       ],
       thumbnail: Java2DPhysicsEngineForCircles,
-      video_url: 'https://youtu.be/92ttC2Bv0sg',
+      video_url: 'https://youtu.be/6uq1piIi1lQ',
       github_url: 'https://github.com/Skitsouprenup/java-2d-circle-physics-engine'
     },
     {
@@ -254,7 +254,7 @@ export const projects = [
         ],
         thumbCoverPos: 'left top',
         thumbnail: BuyDigitalProject,
-        video_url: 'https://www.youtube.com/watch?v=uPy_wX6NcwY',
+        video_url: 'https://youtu.be/3UOMZMOupIw',
         github_url: 'https://github.com/Skitsouprenup/nextjs-nestjs-buy-digital-ecommerce'
     },
     {
@@ -273,7 +273,7 @@ export const projects = [
             'WebRTC'
         ],
         thumbnail: LetsChatProject,
-        video_url: 'https://youtu.be/4--kxfKSyXw',
+        video_url: 'https://youtu.be/YTR5hiFXnNY',
         github_url: 'https://github.com/Skitsouprenup/lets-chat-app-mern'
     },
     {
@@ -290,7 +290,7 @@ export const projects = [
             'Vite'
         ],
         thumbnail: MyCrmProject,
-        video_url: 'https://youtu.be/YRDMfVawP1U',
+        video_url: 'https://youtu.be/8y9ME27r57g',
         github_url: 'https://github.com/Skitsouprenup/mycrm-vue3-django-bootstrap5'
     },
     {
@@ -306,7 +306,7 @@ export const projects = [
             'Postgresql'
         ],
         thumbnail: MyCafeStoreProject,
-        video_url: 'https://youtu.be/OqchjCIpULQ',
+        video_url: 'https://youtu.be/YWiADUZNp1c',
         github_url: 'https://github.com/Skitsouprenup/mycafestore-angular-springboot'
     },
     {
@@ -318,7 +318,7 @@ export const projects = [
             'Java Swing UI'
         ],
         thumbnail: FilesLinksManagerProject,
-        video_url: 'https://youtu.be/SvH74gjn25g',
+        video_url: 'https://youtu.be/Br4x5dYAvZw',
         github_url: 'https://github.com/Skitsouprenup/java-files-and-links-manager'
     },
     {
