@@ -210,14 +210,17 @@ const ProjectsSection = () => {
                     <FlexContainer $direction="column" $gapy="10px">
                         <ProjectLinks $gapx="10px">
                             <Heading as="h5" $type="h5">{item.title}</Heading>
-                            <IconContainer
+                            {
+                              item?.github_url ?
+                              <IconContainer
                                 $size="25px"
                                 $color="gold"
                                 $cursor="pointer"
                                 className="icon"
                                 onClick={() => window.open(item.github_url)}>
                                 <BsGithub />
-                            </IconContainer>
+                              </IconContainer> : null
+                            }
                             {
                                 item?.video_url ? 
                                 <IconContainer

@@ -18,8 +18,23 @@ import TwitterCloneSvelteKitFirebase from '../assets/images/projects/twitter-clo
 import ShurlNuxt3Supabase from '../assets/images/projects/shurl-nuxt3-supabase.png';
 import ReactNativeVidSharing from '../assets/images/projects/react-navite-vidsharing-compressed.png';
 import TetrisCppRaylib from '../assets/images/projects/tetris-cpp-raylib.png'
+import FirstGameDevLog from '../assets/images/projects/first-game-devlog-1-thumb.png'
 
 export const projects = [
+  {
+    id: 'afc298c8-ffe4-4995-b937-512a9ad819d2',
+    title: 'Untitled Game',
+    description: "My first game that I'm gonna publish on Steam once done.",
+    technologies: [
+      'Python',
+      'Pygame',
+      'LMMS',
+      'GIMP',
+      'Tiled'
+    ],
+    thumbnail: FirstGameDevLog,
+    video_url: 'https://www.youtube.com/watch?v=91Dkx47g4hI&list=PLsFOx-R1R-aCJO0LZzSp2zVkgvSTotIxO',
+  },
 	{
       id: '4addded8-2045-49c2-b398-9e5945a31b70',
       title: 'shURL',
