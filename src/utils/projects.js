@@ -17,8 +17,9 @@ import NinjaGamePygameCe from '../assets/images/projects/ninja-game-pygame-ce.pn
 import TwitterCloneSvelteKitFirebase from '../assets/images/projects/twitter-clone-sveltekit-firebase.png';
 import ShurlNuxt3Supabase from '../assets/images/projects/shurl-nuxt3-supabase.png';
 import ReactNativeVidSharing from '../assets/images/projects/react-navite-vidsharing-compressed.png';
-import TetrisCppRaylib from '../assets/images/projects/tetris-cpp-raylib.png'
-import FirstGameDevLog from '../assets/images/projects/first-game-devlog-1-thumb.png'
+import TetrisCppRaylib from '../assets/images/projects/tetris-cpp-raylib.png';
+import FirstGameDevLog from '../assets/images/projects/first-game-devlog-1-thumb.png';
+import MeBlogHtmlCssJsPhp from '../assets/images/projects/me_blog_html_css_js_php.png';
 
 export const projects = [
   {
@@ -35,6 +36,22 @@ export const projects = [
     thumbnail: FirstGameDevLog,
     video_url: 'https://www.youtube.com/watch?v=91Dkx47g4hI&list=PLsFOx-R1R-aCJO0LZzSp2zVkgvSTotIxO',
   },
+  {
+    id: '240788e4-a4e2-46d6-8caf-c3ab6b56ea6c',
+    title: 'Me Blog',
+    description: "A Simple and responsive Blog Management App created using HTML5, CSS3, Javascript and PHP. This project doesn't use any frameworks.",
+    technologies: [
+      'HTML',
+      'CSS',
+      'Javascript',
+      'MySQL',
+      'PHP',
+      'XAMPP'
+    ],
+    thumbnail: MeBlogHtmlCssJsPhp,
+    video_url: 'https://youtu.be/SU_k3zqWv80',
+    github_url: 'https://github.com/Skitsouprenup/me-blog-html-css-js-php'
+  },
 	{
       id: '4addded8-2045-49c2-b398-9e5945a31b70',
       title: 'shURL',
@@ -48,21 +65,6 @@ export const projects = [
       thumbnail: ShurlNuxt3Supabase,
       video_url: 'https://youtu.be/J1OWqJ_fdfU',
       github_url: 'https://github.com/Skitsouprenup/shurl-nuxt3-supabase'
-    },
-    {
-      id: '54f86687-e952-4cb7-81c8-02a3cd159b08',
-      title: 'VidSharing',
-      description: 'A Simple and responsive video sharing app created using react native for mobile.',
-      technologies: [
-        'Appwrite',
-        'React Native',
-        'NativeWind',
-        'Expo',
-        'javascript'
-      ],
-      thumbCoverPos: 'left top',
-      thumbnail: ReactNativeVidSharing,
-      github_url: 'https://github.com/Skitsouprenup/react-native-video-sharing-app'
     },
     {
         id: '302cb7ff-7fde-4a7b-a028-c51a943616cc',
@@ -80,7 +82,7 @@ export const projects = [
         video_url: 'https://youtu.be/5CCogRUEbNI',
         github_url: 'https://github.com/Skitsouprenup/react-admin-app1'
     },
-	{
+	  {
       id: 'd28a8dc3-3f26-49fe-9e17-3bbc74c50f74',
       title: 'Web3App',
       description: 'A Simple and responsive blockchain app using react as frontend, solidity for interaction with the blockchain and hardhat for deploying and testing solidity contracts.',
@@ -94,6 +96,21 @@ export const projects = [
       thumbnail: Web3AppReactSolidty1,
       video_url: 'https://youtu.be/K3apk2Yfw7Y',
       github_url: 'https://github.com/Skitsouprenup/web3-app-react-solidity'
+    },
+    {
+      id: '54f86687-e952-4cb7-81c8-02a3cd159b08',
+      title: 'VidSharing',
+      description: 'A Simple and responsive video sharing app created using react native for mobile.',
+      technologies: [
+        'Appwrite',
+        'React Native',
+        'NativeWind',
+        'Expo',
+        'javascript'
+      ],
+      thumbCoverPos: 'left top',
+      thumbnail: ReactNativeVidSharing,
+      github_url: 'https://github.com/Skitsouprenup/react-native-video-sharing-app'
     },
     {
       id: '300bb349-45eb-41f0-8560-926abb98a8bc',
