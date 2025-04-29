@@ -50,9 +50,11 @@ export const IconContainer = styled.div`
     }};
     cursor: ${({$cursor}) => $cursor};
     transition: color 0.25s ease-in-out;
-
-    &:hover {
-        color: ${({$hoverColor}) => $hoverColor};
+    
+    .icon_yt {
+        display: flex;
+        height: fit-content;
+        width: 32px;
     }
 `;
 
