@@ -20,6 +20,7 @@ import ReactNativeVidSharing from '../assets/images/projects/react-navite-vidsha
 import TetrisCppRaylib from '../assets/images/projects/tetris-cpp-raylib.png';
 import FirstGameDevLog from '../assets/images/projects/first-game-devlog-1-thumb.png';
 import MeBlogHtmlCssJsPhp from '../assets/images/projects/me_blog_html_css_js_php.png';
+import ImageGenAiSaaSSampleUi from '../assets/images/projects/image_generator_ai_saas_sample_ui.jpg';
 
 export const projects = [
   {
@@ -35,6 +36,22 @@ export const projects = [
     ],
     thumbnail: FirstGameDevLog,
     video_url: 'https://www.youtube.com/watch?v=91Dkx47g4hI&list=PLsFOx-R1R-aCJO0LZzSp2zVkgvSTotIxO',
+  },
+  {
+    id: '97a87ae8-5dc4-4156-ae08-3b905b9a2f76',
+    title: 'Image Generator AI SaaS Sample UI',
+    description: "A Simple and responsive AI SaaS UI built using react js.",
+    technologies: [  
+      'HTML5',
+      'CSS3',
+      'Javascript',
+      'React',
+      'TailwindCSS',
+      'Framer Motion'
+    ],
+    thumbnail: ImageGenAiSaaSSampleUi,
+    video_url: 'https://youtu.be/VlldgAWBdQQ',
+    github_url: 'https://github.com/Skitsouprenup/react-ai-gen-img-ui'
   },
   {
     id: '240788e4-a4e2-46d6-8caf-c3ab6b56ea6c',

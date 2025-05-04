@@ -10,5 +10,6 @@
 export const categoryPatterns = [
  ['c', '^c$'],
  ['c++', '^C\\+\\+$'],
- ['java', '^java(?!script)']
+ ['java', '^java(?!script)'],
+ ['react', '^react$']
 ]
