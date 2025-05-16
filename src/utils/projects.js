@@ -21,6 +21,7 @@ import TetrisCppRaylib from '../assets/images/projects/tetris-cpp-raylib.png';
 import FirstGameDevLog from '../assets/images/projects/first-game-devlog-1-thumb.png';
 import MeBlogHtmlCssJsPhp from '../assets/images/projects/me_blog_html_css_js_php.png';
 import ImageGenAiSaaSSampleUi from '../assets/images/projects/image_generator_ai_saas_sample_ui.jpg';
+import BlogLogMernStack from '../assets/images/projects/blog-log-cover.jpg';
 
 export const projects = [
   {
@@ -36,6 +37,29 @@ export const projects = [
     ],
     thumbnail: FirstGameDevLog,
     video_url: 'https://www.youtube.com/watch?v=91Dkx47g4hI&list=PLsFOx-R1R-aCJO0LZzSp2zVkgvSTotIxO',
+  },
+  {
+    id: '9be9664f-8319-4235-8ae0-fd3959c978c5',
+    title: 'Blog Log: Blogger App for bloggers',
+    description: "A Simple and responsive full stack blog app created using reactjs for frontend and nodejs for backend.",
+    technologies: [  
+      'HTML5',
+      'CSS3',
+      'Javascript',
+      'React',
+      'TailwindCSS',
+      'Mongodb',
+      'NodeJS',
+      'ExpressJS',
+      'Clerk',
+      'Imagekit.io',
+      'React Quill',
+      'Tanstack Query'
+    ],
+    thumbCoverPos: 'left top',
+    thumbnail: BlogLogMernStack,
+    video_url: 'https://youtu.be/v7SdfdaXJYw',
+    github_url: 'https://github.com/Skitsouprenup/blog-log-mern-stack'
   },
   {
     id: '97a87ae8-5dc4-4156-ae08-3b905b9a2f76',
